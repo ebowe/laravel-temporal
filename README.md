@@ -1,5 +1,4 @@
 # Laravel Temporal Models per Laravel 7.x
-### This is a fork of the original gazugafan/laravel-temporal package: https://github.com/gazugafan/laravel-temporal 
 
 ## Installation
 
@@ -22,5 +21,5 @@ Add the package in require section:
    }
 ```
 
-For the usage follow the instruction in the README file of the original package:
+For the usage follow the instruction in the README file of the original package:  
 https://github.com/gazugafan/laravel-temporal#overview
