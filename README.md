@@ -1,4 +1,21 @@
 # Laravel Temporal Models
+### This is a fork of the original gazugafan/laravel-temporal package  
+
+## Installation
+
+Install via Composer...
+
+For Laravel 7.0 use the version 2.0
+```bash
+composer require giacomopiva/laravel-temporal:2.0
+```
+
+--- 
+
+## Original README
+
+
+
 ### Temporal models and versioning for Laravel
 
 You know what's crazy? Database updates. You update a record and BAM! The previous version of the record is overwritten. What was it like before you updated it? No one knows. The data has been lost forever. More like database overwrites, amirite?
