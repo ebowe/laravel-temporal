@@ -18,7 +18,7 @@ Add this github project as a repository in composer.json
 Add the package in require section:
 ```json
    "require": {
-   	. . .
+   	[...]
 	"gazugafan/laravel-temporal": "dev-master as 2.0"
    }
 ```
