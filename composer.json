@@ -11,8 +11,8 @@
     "license": "MIT",
     "require": {
         "php" : ">=7.2.5",
-        "illuminate/database": "^7.0",
-        "illuminate/events": "^7.0",
+        "illuminate/database": "^7.0|^8.0",
+        "illuminate/events": "^7.0|^8.0",
         "doctrine/dbal": "^2.5",
         "laravel/helpers": "^1.2"
     },

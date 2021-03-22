@@ -1,4 +1,4 @@
-# Laravel Temporal Models per Laravel 7.x
+# Laravel Temporal Models per Laravel 8.x
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this github project as a repository in composer.json
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/giacomopiva/laravel-temporal"
+            "url": "https://github.com/ebowe/laravel-temporal"
         }
     ],    
 ```
