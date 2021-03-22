@@ -182,20 +182,19 @@ trait Temporal
 		return $saved;
 	}
 
-	/**
-	 * Set the keys for a save update query.
-	 * Includes the version column
-	 *
-	 * @param  \Illuminate\Database\Eloquent\Builder  $query
-	 * @return \Illuminate\Database\Eloquent\Builder
-	 */
-	protected function setKeysForSaveQuery(Builder $query)
-	{
-		$query->where($this->getKeyName(), '=', $this->getKeyForSaveQuery());
-		$query->where($this->getVersionColumn(), '=', $this->{$this->getVersionColumn()});
+    /**
+     * Set the keys for a save update query.
+     *
+     * @param  \Illuminate\Database\Eloquent\Builder  $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    protected function setKeysForSaveQuery($query)
+    {
+        $query->where($this->getKeyName(), '=', $this->getKeyForSaveQuery());
+        $query->where($this->getVersionColumn(), '=', $this->{$this->getVersionColumn()});
 
-		return $query;
-	}
+        return $query;
+    }
 
 	/**
 	 * Reload a fresh model instance from the database.
